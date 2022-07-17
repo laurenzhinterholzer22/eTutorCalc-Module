@@ -1,0 +1,88 @@
+{
+  "courseManagement": {
+    "title": "Courses",
+    "instanceCount": "Instances: {{count}}",
+    "popover": {
+      "title": "Information",
+      "message": "Should the selected course be deleted?",
+      "cancelBtn": "No",
+      "confirmBtn": "Yes"
+    },
+    "createText": "Create new course",
+    "form": {
+      "header": "Create / edit a course",
+      "name": "Name:",
+      "description": "Description:",
+      "type": "Type:",
+      "typePlaceholder": "Select type",
+      "url": "Link:",
+      "cancel": "Cancel",
+      "save": "Save",
+      "close": "Close",
+      "viewHeader": "View course",
+      "creator": "Creator",
+      "id": "Id:"
+    },
+    "searchPlaceholder": "Search by name ...",
+    "error": {
+      "required": "This field is required!",
+      "url": "This optional field has to conform the URL standard!"
+    },
+    "tooltip": {
+      "editCourse": "Edit course '{{courseName}}'",
+      "deleteCourse": "Delete course '{{courseName}}'",
+      "viewCourse": "View course '{{courseName}}'",
+      "editGoalAssignment": "Edit goal assignment of '{{courseName}}'",
+      "viewGoalAssignment": "View goal assignment of '{{courseName}}'"
+    },
+    "goalAssignment": {
+      "modalHeader": "Learning goal assignment",
+      "selectGoal": "Select learning goal",
+      "deselectGoal": "Deselect learning goal",
+      "availableGoals": "Available learning goals",
+      "selectedGoals": "Selected learning goals",
+      "displayModalHeader": "Display learning goal assignment"
+    },
+    "showInstances": "Show instances",
+    "createInstance": "Create instance",
+    "instances": {
+      "modalHeader": "Create new course instance of the course '{{courseName}}'",
+      "year": "Year:",
+      "term": "Term:",
+      "description": "Description:",
+      "overview": {
+        "back": "Back",
+        "header": "Instances of the course '{{courseName}}'",
+        "name": "Name",
+        "year": "Year",
+        "term": "Term",
+        "studentCount": "Student count",
+        "assignStudents": "Assign students",
+        "assignExerciseSheet": "Assign exercise sheet",
+        "assignExerciseSheetHeader": "Adjust exercise sheet allocation",
+        "assignStudentsHeader": "Adjust student assignments",
+        "assignStudentsLabel": "Students:",
+        "assignStudentsPlaceholder": "Select students",
+        "assignStudentsNotFoundText": "Student not found!",
+        "studentUploadLabel": "Import KUSSS CSV list",
+        "studentUploadInfoTooltip": "The columns MATRIKELNR, VORNAME, NACHNAME and EMAIL are mandatory",
+        "csvReset": "Remove CSV file",
+        "designation": "Designation",
+        "exerciseSheetsHeader": "Exercise sheets",
+        "selected": "Selected",
+        "delete": "Delete course instance",
+        "courseInstanceRemoved": "The course instance '{{name}}' is successfully removed!",
+        "deletePopover": {
+          "title": "Information",
+          "message": "Should the selected course instance be deleted?",
+          "cancelBtn": "No",
+          "confirmBtn": "Yes"
+        }
+      }
+    },
+    "terms": {
+      "summer": "Summer term",
+      "winter": "Winter term"
+    }
+  }
+}

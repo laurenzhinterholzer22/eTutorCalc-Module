@@ -1,0 +1,88 @@
+{
+  "courseManagement": {
+    "title": "Kurse",
+    "instanceCount": "Instanzen: {{count}}",
+    "popover": {
+      "title": "Information",
+      "message": "Soll der ausgewählte Kurs gelöscht werden?",
+      "cancelBtn": "Nein",
+      "confirmBtn": "Ja"
+    },
+    "createText": "Neuen Kurs erstellen",
+    "form": {
+      "header": "Kurs erstellen / bearbeiten",
+      "name": "Name:",
+      "description": "Beschreibung:",
+      "type": "Type:",
+      "typePlaceholder": "Type auswählen",
+      "url": "Link:",
+      "cancel": "Abbrechen",
+      "save": "Speichern",
+      "close": "Schließen",
+      "viewHeader": "Kurs anzeigen",
+      "creator": "Ersteller:",
+      "id": "Id:"
+    },
+    "searchPlaceholder": "Nach Namen suchen...",
+    "error": {
+      "required": "Dieses Feld ist erforderlich!",
+      "url": "Dieses optionale Feld muss dem URL-Format entsprechen!"
+    },
+    "tooltip": {
+      "editCourse": "Kurs '{{courseName}}' bearbeiten",
+      "deleteCourse": "Kurs '{{courseName}}' löschen",
+      "viewCourse": "Kurs '{{courseName}}' anzeigen",
+      "editGoalAssignment": "Zielzuordnung von '{{courseName}}' bearbeiten",
+      "viewGoalAssignment": "Zielzuordnung von '{{courseName}}' anzeigen"
+    },
+    "goalAssignment": {
+      "modalHeader": "Lernzielzuordnung",
+      "selectGoal": "Lernziel auswählen",
+      "deselectGoal": "Lernziel abwählen",
+      "availableGoals": "Verfügbare Lernziele",
+      "selectedGoals": "Ausgewählte Lernziele",
+      "displayModalHeader": "Lernzielzuordnung darstellen"
+    },
+    "showInstances": "Instanzen anzeigen",
+    "createInstance": "Instanz anlegen",
+    "instances": {
+      "modalHeader": "Neue Kursinstanz des Kurses '{{courseName}}' anlegen",
+      "year": "Jahr:",
+      "term": "Semester:",
+      "description": "Beschreibung:",
+      "overview": {
+        "back": "Zurück",
+        "header": "Instanzen des Kurses '{{courseName}}'",
+        "name": "Name",
+        "year": "Jahr",
+        "term": "Semester",
+        "studentCount": "Studierendenanzahl",
+        "assignStudents": "Studierende zuordnen",
+        "assignExerciseSheet": "Übungszettel zuordnen",
+        "assignExerciseSheetHeader": "Übungszettelzuordnung anpassen",
+        "assignStudentsHeader": "Studierendenzuordnung anpassen",
+        "assignStudentsLabel": "Studierende:",
+        "assignStudentsPlaceholder": "Studierende auswählen",
+        "assignStudentsNotFoundText": "Studiernde/n nicht gefunden!",
+        "studentUploadLabel": "KUSSS-CSV-Liste importieren",
+        "studentUploadInfoTooltip": "Die Spalten MATRIKELNR, VORNAME, NACHNAME und EMAIL sind erforderlich!",
+        "csvReset": "CSV-Datei entfernen",
+        "designation": "Bezeichnung",
+        "exerciseSheetsHeader": "Übungszettel",
+        "selected": "Ausgewählt",
+        "delete": "Kursinstanz löschen",
+        "courseInstanceRemoved": "Die Kursinstanz '{{name}}' wurde erfolgreich gelöscht!",
+        "deletePopover": {
+          "title": "Information",
+          "message": "Soll die ausgewählte Kursinstanz gelöscht werden?",
+          "cancelBtn": "Nein",
+          "confirmBtn": "Ja"
+        }
+      }
+    },
+    "terms": {
+      "summer": "Sommersemester",
+      "winter": "Wintersemester"
+    }
+  }
+}

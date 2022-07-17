@@ -1,0 +1,32 @@
+{
+  "learningGoalManagement": {
+    "header": "Lernzielverwaltung",
+    "createSubGoal": "Teilziel erstellen",
+    "createGoal": "Ziel erstellen",
+    "editGoal": "Ziel bearbeiten",
+    "needVerificationInfo": "Wenn diese Option gewählt wird, reicht die Erreichung etwaiiger Teilziele nicht zur Erreichung dieses Lernziels. Stattdessen müssen explizite Aufgaben dieses Lernziels absolviert werden.",
+    "entity": {
+      "name": "Name:",
+      "description": "Beschreibung:",
+      "lastChangeDate": "Letztes Änderungsdatum:",
+      "selectedGoal": "Ausgewähltes Lernziel",
+      "privateGoal": "Privates Lernziel",
+      "needVerification": "Zusätzliche Verifizierung der Zielerreichung"
+    },
+    "newLearningGoalHeader": "Neues Lernziel erstellen",
+    "updateLearningGoalHeader": "Lernziel bearbeiten",
+    "createSubGoalHeader": "Teilziel erstellen",
+    "assignedTasks": "Zugeordnete Aufgaben",
+    "dependencies": "Abhängigkeiten",
+    "manageDependencies": "Abhängigkeiten verwalten",
+    "manageDependenciesHeader": "Abhängigkeiten vom Lernziel '{{goalName}}' verwalten",
+    "addAsSubGoal": "Als Teilziel hinzufügen",
+    "addAsSubGoalHeader": "Lernziel '{{goalName}}' als Teilziel hinzufügen: ",
+    "filter": {
+      "filter": "Filter:",
+      "onlyShowOwnGoals": "Nur die eigenen Lernziele anzeigen?"
+    },
+    "delete": "Löschen",
+    "learningGoalRemovedMsg": "Das Lernziel '{{name}}' wurde erfolgreich entfernt!"
+  }
+}

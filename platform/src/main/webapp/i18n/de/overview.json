@@ -1,0 +1,63 @@
+{
+  "overview": {
+    "header": "Übersicht",
+    "student": {
+      "header": "Meine Kurse",
+      "designation": "Bezeichnung",
+      "term": "Semester",
+      "year": "Jahr",
+      "instructor": "Kursleiter",
+      "showAssignments": "Aufgaben anzeigen",
+      "showSelfAssessment": "Selbstüberprüfung durchführen",
+      "exerciseSheetOverviewHeader": "Übungszettelübersicht von '{{courseName}}'",
+      "goalDescriptionHeader": "Beschreibung des Lernziels '{{goalName}}'",
+      "goalDescriptionTooltip": "Klicken Sie das Ziel um die Beschreibung zu sehen.",
+      "back": "Zurück",
+      "difficulty": "Schwierigkeit",
+      "completed": "Abgeschlossen",
+      "started": "Gestartet",
+      "selfEvaluation": {
+        "header": "Selbsteinschätzung - Kurs '{{course}}'",
+        "cardHeader": "Lernziele",
+        "cardTitle": "Lernziel {{goal}} erreicht?",
+        "no": "Nein",
+        "yes": "Ja",
+        "save": "Speichern",
+        "cancel": "Abbrechen"
+      },
+      "exerciseSheetTaskOverview": {
+        "openTask": "Öffnen",
+        "header": "Aufgaben des Übungszettels '{{name}}'",
+        "sheetClosedText": "Der Übungszettel wurde bereits geschlossen!",
+        "sheetOfTaskClosedText": "Der Übungszettel dieser Aufgabe wurde bereits geschlossen!",
+        "openLearningGoals": "Lernziele anzeigen",
+        "learningGoalHeader": "Lernziele von '{{entity}}'",
+        "goalAssignmentTooltip": "Lernzielzuordnung von '{{entity}}' anzeigen",
+        "fields": {
+          "taskNo": "Aufgabennummer",
+          "name": "Name",
+          "assessed": "Beurteilt",
+          "learningGoalReached": "Lernziel erreicht",
+          "submitted": "Eingereicht",
+          "learningGoals": "Lernziele"
+        }
+      },
+      "tasks": {
+        "headerText": "Aufgabe '{{name}}' bearbeiten",
+        "header": "Überschrift",
+        "link": "Link",
+        "instructions": "Aufgabenstellung",
+        "groupInstruction": "Gruppen-Beschreibung",
+        "difficulty": "Schwierigkeit",
+        "processingTime": "Geschätzte Bearbeitungszeit",
+        "creator": "Ersteller",
+        "submit": "Einreichen",
+        "submitted": "Eingereicht",
+        "file": "Datei-Anhang",
+        "randomWriterInstruction": "Generierte Writer Angabe",
+        "randomCalcInstruction": "Generierte Calc Angabe",
+        "calcTaskPointsDescription": "Erreichte Punkte: "
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "groups": [
+    {
+      "name": "application",
+      "type": "at.jku.dke.etutor.config.ApplicationProperties",
+      "sourceType": "at.jku.dke.etutor.config.ApplicationProperties"
+    },
+    {
+      "name": "application.dispatcher",
+      "type": "at.jku.dke.etutor.config.ApplicationProperties$Dispatcher",
+      "sourceType": "at.jku.dke.etutor.config.ApplicationProperties",
+      "sourceMethod": "getDispatcher()"
+    },
+    {
+      "name": "application.fuseki",
+      "type": "at.jku.dke.etutor.config.ApplicationProperties$Fuseki",
+      "sourceType": "at.jku.dke.etutor.config.ApplicationProperties",
+      "sourceMethod": "getFuseki()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "application.dispatcher.datalog-facts-url-prefix",
+      "type": "java.lang.String",
+      "sourceType": "at.jku.dke.etutor.config.ApplicationProperties$Dispatcher"
+    },
+    {
+      "name": "application.dispatcher.sql-table-url-prefix",
+      "type": "java.lang.String",
+      "sourceType": "at.jku.dke.etutor.config.ApplicationProperties$Dispatcher"
+    },
+    {
+      "name": "application.dispatcher.url",
+      "type": "java.lang.String",
+      "sourceType": "at.jku.dke.etutor.config.ApplicationProperties$Dispatcher"
+    },
+    {
+      "name": "application.dispatcher.xquery-xml-file-url-prefix",
+      "type": "java.lang.String",
+      "sourceType": "at.jku.dke.etutor.config.ApplicationProperties$Dispatcher"
+    },
+    {
+      "name": "application.fuseki.base-url",
+      "type": "java.lang.String",
+      "sourceType": "at.jku.dke.etutor.config.ApplicationProperties$Fuseki"
+    }
+  ],
+  "hints": []
+}

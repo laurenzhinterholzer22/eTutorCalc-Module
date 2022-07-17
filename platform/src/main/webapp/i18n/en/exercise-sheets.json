@@ -1,0 +1,35 @@
+{
+  "exerciseSheets": {
+    "header": "Exercise sheet management",
+    "createText": "Create new exercise sheet",
+    "form": {
+      "headerNew": "Create new exercise sheet",
+      "headerEdit": "Edit exercise sheet '{{header}}'",
+      "cancel": "Cancel",
+      "save": "Save",
+      "fields": {
+        "name": "Name:",
+        "difficulty": "Difficulty:",
+        "learningGoals": "Learning goals",
+        "taskCount": "Task count:",
+        "generateWholeExerciseSheet": "Generate whole exercise sheet at once?"
+      },
+      "error": {
+        "required": "This field is required!",
+        "min1": "The minimum value is 1!"
+      },
+      "difficultyPlaceholder": "Select difficulty"
+    },
+    "popover": {
+      "title": "Information",
+      "message": "Should the current exercise sheet by deleted?",
+      "cancelBtn": "No",
+      "confirmBtn": "Yes"
+    },
+    "tooltip": {
+      "deleteExerciseSheet": "Delete exercise sheet '{{name}}'",
+      "editExerciseSheet": "Edit exercise sheet '{{name}}'"
+    },
+    "referencedFrom": "Referenced from {{count}}:"
+  }
+}

@@ -1,0 +1,47 @@
+<button type="button" class="btn btn-primary" (click)="navigateBack()" jhiTranslate="overview.student.back">Back</button>
+<br />
+<br />
+
+<h3>{{ 'overview.student.exerciseSheetOverviewHeader' | translate: { courseName: instance?.courseName } }}</h3>
+
+<div class="table-responsive" *ngIf="items">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th jhiTranslate="overview.student.difficulty">Difficulty</th>
+        <th jhiTranslate="overview.student.completed">Completed</th>
+        <th jhiTranslate="overview.student.started">Started</th>
+        <th jhiTranslate="overview.student.exerciseSheetTaskOverview.fields.learningGoals">Goals</th>
+        <th>&nbsp;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of items; trackBy: trackIdentity">
+        <td>{{ item.assignmentHeader }}</td>
+        <td>{{ getDifficultyI18nString(item.difficultyURI) | translate }}</td>
+        <td [ngSwitch]="item.completed">
+          <span *ngSwitchCase="true"><fa-icon icon="check"></fa-icon></span>
+          <span *ngSwitchCase="false"><fa-icon icon="times"></fa-icon></span>
+        </td>
+        <td [ngSwitch]="item.opened">
+          <span *ngSwitchCase="true"><fa-icon icon="check"></fa-icon></span>
+          <span *ngSwitchCase="false"><fa-icon icon="times"></fa-icon></span>
+        </td>
+        <td>
+          <a
+            ngbTooltip="{{
+              'overview.student.exerciseSheetTaskOverview.goalAssignmentTooltip' | translate: { entity: item.assignmentHeader }
+            }}"
+            (click)="viewGoalAssignments(item)"
+          >
+            <fa-icon icon="bullseye"></fa-icon>
+          </a>
+        </td>
+        <td>
+          <button type="button" class="btn btn-info" (click)="navigateToTasks(item)">Aufgaben anzeigen</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,52 @@
+{
+  "lecturerOverview": {
+    "overviewModalHeader": "Lecturer assignment overview",
+    "overviewTableHeader": "Students' assignments",
+    "overviewTable": {
+      "matriculationNumber": "Matriculation number",
+      "submitted": "Fully submitted",
+      "fullyGraded": "Fully graded",
+      "btnGrade": "Grade",
+      "submission": "Submission",
+      "submissionTime": "Submission-Time",
+      "solved": "Solved",
+      "btnExport": "Export"
+    },
+    "footerClose": "Close",
+    "gradingWindow": {
+      "modalHeader": "Task assessment of student '{{student}}'",
+      "windowHeader": "Evaluate task {{currTask}} / {{taskCount}} of '{{student}}'",
+      "form": {
+        "task": "Task:",
+        "goalReached": "Has the task's learning goal already been reached?",
+        "taskGraded": "Has this task already been graded?",
+        "saveEvaluation": "Save evaluation"
+      }
+    },
+    "submissionWindow": {
+      "modalHeader": "Submissions of '{{student}}'",
+      "windowHeader": "See submissions of '{{student}}'"
+    },
+    "runSubmissionWindow": {
+      "modalHeader": "Analyze submission of '{{student}}'"
+    },
+    "overviewComponent": {
+      "header": "Own courses",
+      "table": {
+        "courseName": "Course instance name",
+        "showStatistics": "Show statistics"
+      }
+    },
+    "courseInstanceStatistics": {
+      "header": "Statistical overview of course instance '{{instanceName}}'",
+      "backBtnText": "Navigate back to overview",
+      "totalStudentCntText": "Total number of this course instance's students: {{cnt}}",
+      "achievementHeader": "Learning goal achievements",
+      "colGoalName": "Learning goal name",
+      "colAbsoluteCnt": "Absolute count",
+      "colRelativeCnt": "Relative count",
+      "failureCountHeader": "Failure count per learning goal",
+      "colFailedGoalCnt": "Failed try count"
+    }
+  }
+}

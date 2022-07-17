@@ -1,0 +1,32 @@
+{
+  "learningGoalManagement": {
+    "header": "Learning goal management",
+    "createSubGoal": "Create sub goal",
+    "createGoal": "Create goal",
+    "editGoal": "Edit goal",
+    "needVerificationInfo": "If chosen, achieving sub-goals is not sufficient to achieve this goal. Instead, designated tasks have to be absolved.",
+    "entity": {
+      "name": "Name:",
+      "description": "Description:",
+      "lastChangeDate": "Last change date:",
+      "selectedGoal": "Selected learning goal",
+      "privateGoal": "Private learning goal",
+      "needVerification": "Additional goal achievement verification"
+    },
+    "newLearningGoalHeader": "Create new learning goal",
+    "updateLearningGoalHeader": "Update learning goal",
+    "createSubGoalHeader": "Create sub goal",
+    "assignedTasks": "Assigned tasks",
+    "dependencies": "Dependencies",
+    "manageDependencies": "Manage dependencies",
+    "manageDependenciesHeader": "Manage dependencies of learning goal '{{goalName}}'",
+    "addAsSubGoal": "Add as sub goal",
+    "addAsSubGoalHeader": "Add learning goal '{{goalName}}' as sub goal to:",
+    "filter": {
+      "filter": "Filter:",
+      "onlyShowOwnGoals": "Only show own learning goals?"
+    },
+    "delete": "Delete",
+    "learningGoalRemovedMsg": "The learning goal '{{name}}' was successfully removed!"
+  }
+}
